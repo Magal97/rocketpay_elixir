@@ -40,7 +40,8 @@ defmodule Rocketpay.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:plug_cowboy, "~> 1.0"}
+      {:plug_cowboy, "~> 1.0"},
+      {:bcrypt_elixir, "~> 2.0"}
     ]
   end
 
